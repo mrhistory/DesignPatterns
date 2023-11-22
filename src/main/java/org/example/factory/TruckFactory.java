@@ -2,7 +2,7 @@ package org.example.factory;
 
 public class TruckFactory extends LogisticsFactory {
     @Override
-    public Truck createTransport() {
+    public Transport createTransport() {
         return new Truck();
     }
 }
